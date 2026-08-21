@@ -15,22 +15,23 @@ Mona's website focuses on practical GitHub guidance backed by official reference
 - GitHub Actions as the automation layer behind repository workflows.
 - Recent GitHub Blog and Changelog stories worth watching.
 
-## Latest updates (as of August 19, 2026)
+## Latest updates (as of August 21, 2026)
 
 ### From the GitHub Blog
 
-- **How canvases make agentic workflows visible, steerable, and cost-efficient** — GitHub explains how visual canvases help developers track and control multi-step AI agent work instead of treating it as a black box. *(Source: GitHub Blog)*
-- **How to bring your software delivery workflow into GitHub with agent apps** — A practical look at connecting agent apps to existing delivery pipelines so automation fits into workflows teams already use. *(Source: GitHub Blog)*
-- **Your guide to GitHub Universe 2026 is here** — The schedule for GitHub's flagship conference has launched, covering sessions on AI-assisted development, security, and platform updates. *(Source: GitHub Blog)*
+- **An update on the August 17 outage** — GitHub's CTO shares what caused the recent outage and the reliability improvements underway as a result. *(Source: GitHub Blog)*
+- **Your contributors are AI-first now — is your project?** — The AutoGPT maintainer shares practical repo instructions, gates, and boundaries for keeping AI contributors productive while maintainers stay in control. *(Source: GitHub Blog)*
+- **How we took malware advisories beyond npm** — GitHub explains how it wired OpenSSF's malicious-packages data into the Advisory Database so malware advisories now cover more ecosystems than npm alone. *(Source: GitHub Blog)*
 - **What 50 open source projects taught us about security in the AI era** — Research-backed guidance on securing open source projects as AI tools become part of everyday contribution workflows. *(Source: GitHub Blog)*
+- **Your guide to GitHub Universe 2026 is here** — The schedule for GitHub's flagship conference has launched, covering sessions on AI-assisted development, security, and platform updates. *(Source: GitHub Blog)*
 
 ### From the GitHub Changelog
 
-- **CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling** — Better static analysis coverage for Actions workflows and JavaScript code. *(Source: GitHub Changelog)*
-- **Track organization code quality trends** — New reporting to help teams monitor code quality metrics over time at the org level. *(Source: GitHub Changelog)*
-- **Credential revocation and deauthorization by token type** — Finer-grained control for admins to revoke specific credential types. *(Source: GitHub Changelog)*
-- **Multiple redirect URIs and token refresh for OAuth Apps** — OAuth Apps can now register multiple redirect URIs and refresh tokens, easing multi-environment integrations. *(Source: GitHub Changelog)*
-- **Copilot code review effort levels are generally available** — Teams can now tune how much effort Copilot puts into automated code reviews. *(Source: GitHub Changelog)*
-- **Agent Plugins 1.0 in VS Code, Copilot CLI, and the Copilot app** — A unified plugin system for extending Copilot agents across GitHub's developer tools. *(Source: GitHub Changelog)*
+- **Pinning saved views to the repository issues sidebar is generally available** — You can now pin saved views to the repository issues sidebar so your most-used views are one click away, even when the sidebar is collapsed. *(Source: GitHub Changelog)*
+- **Code scanning adds a mitigated alert dismissal reason** — Dismiss code scanning alerts as "Mitigated" when external controls (like a firewall) reduce risk, separating them from "Won't fix" dismissals. *(Source: GitHub Changelog)*
+- **Windows 11 arm64 VS2026 image generally available** — GitHub-hosted runners now support `windows-11-vs2026-arm`; the default `windows-11-arm` image will migrate to VS2026 between September 21–30, 2026. *(Source: GitHub Changelog)*
+- **Track organization code quality trends** — The org-level Code Quality dashboard now has a Trends tab showing whether findings are rising or falling over 7/14/30-day windows. *(Source: GitHub Changelog)*
+- **CodeQL 2.26.3 improves GitHub Actions queries and JavaScript modeling** — Better static analysis coverage for Actions workflows, plus new JavaScript, TypeScript, and Vue source modeling. *(Source: GitHub Changelog)*
+- **Credential revocation and deauthorization by token type** — Admins can now revoke all tokens of a specific type (PATs, SSH keys, OAuth tokens, GitHub App tokens) instead of all credentials at once, containing the blast radius of a compromise. *(Source: GitHub Changelog)*
 
-Practical takeaway: developers exploring Copilot should check out the new agent plugin system and tunable code review effort levels, while org admins should review the new credential revocation and OAuth redirect URI controls for tighter security.
+Practical takeaway: developers managing large issue backlogs should try pinning saved views for faster navigation, while security and platform teams should look at the new mitigated dismissal reason, credential-type revocation, and Windows 11 arm64 VS2026 runner image ahead of the September migration deadline.
